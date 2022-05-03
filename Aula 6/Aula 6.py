@@ -12,8 +12,8 @@ print('nome:', nome)
 print('idade:', idade)
 print('altura:', altura)
 print('nome:', nome)
-print('e maior:', e_maior)
-print('peso:', peso)
+print(f'e maior: {e_maior}')
+print(f'peso: {peso}')
 print(idade * altura)
 
 """

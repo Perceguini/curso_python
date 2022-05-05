@@ -2,10 +2,9 @@
 Pass e Ellipsis com placeholders
 """
 
-# Valor = false
-#
-# if valor =
-# pass
-#
-# else:
-#     print(tchau)
+valor = False
+
+if valor:
+    ...
+else:
+    print("tchau")

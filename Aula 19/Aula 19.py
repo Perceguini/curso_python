@@ -52,7 +52,7 @@ while True:
     operador = input('Digite um operador:  ')
     # +-/*
 
-    if not  num_1.isnumeric() or not num_2.isnumeric():
+    if not num_1.isnumeric() or not num_2.isnumeric():
         print('Você precisa digitar um numero.')
 
     num_1 = int(num_1)

@@ -39,7 +39,9 @@ menu_principal = """---Sistema da LeLe---
 
 1 - Menu CPF
 2 - Menu Pessoas
-0 - Sair do sistema"""
+3 - Jogos
+0 - Sair do sistema
+"""
 
 menu_cpf = """------Menu CPF-------
 
@@ -56,6 +58,11 @@ menu_pessoas = """----Menu Pessoas-----
 0 - Voltar
 
 Opção: xx
+"""
+
+jogos = """jogos_de_alternativas
+
+1 - Jogo de alternativas
 """
 
 if len(senha) <= 6:
@@ -159,6 +166,11 @@ while True:
 
             # Opção de editar pessoa da lista
             elif opcao_pessoas == '3':
+                while True:
+                    print(menu_pessoas)
+                    opcao_pessoas = input('Opção: ')
+                    print('----')
+
                 if len(pessoas) > 0:
                     for indice, pessoa in enumerate(pessoas):
                         print(f"{indice} - {pessoa}")

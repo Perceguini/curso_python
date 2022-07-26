@@ -35,6 +35,7 @@ def buscar_duplicados():
     for lista in lista_de_lista_de_inteiros:
         print(lista)
         print_value = []
+        for num in lista:
             filtered = list(filter(lambda numero: numero == num, lista))
             if len(filtered) >= 2:
                 if num not in print_value:
@@ -44,6 +45,5 @@ def buscar_duplicados():
         else:
             print("-1")
 
-        for num in lista:
 
 buscar_duplicados()

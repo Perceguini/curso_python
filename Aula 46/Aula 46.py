@@ -25,4 +25,4 @@ l3 = list(range(100))
 ex6 = [v for v in l3 if v % 2 == 0 if v % 8 == 0]
 
 ex7 = [v if v % 3 == 0 and v % 8 == 0 else 0 for v in l3]
-print(ex7)
+print(ex3)

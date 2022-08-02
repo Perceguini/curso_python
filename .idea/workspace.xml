@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f3aa845-771b-493b-98c7-1d793a47d27c" name="Changes" comment="Aula 45:&#10;&#10;Exercicio lista:&#10;&#10;Crianco funções para encontrar numeros verificados.">
-      <change afterPath="$PROJECT_DIR$/Aula 46/Aula 46.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sistema 0_1/teste.py" afterDir="false" />
+    <list default="true" id="1f3aa845-771b-493b-98c7-1d793a47d27c" name="Changes" comment="List Comprehesion &#10;&#10;Formas e utilizar listas para otimizar o codigo">
+      <change afterPath="$PROJECT_DIR$/Aula 47/Aula 47.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 46/Aula 46.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 46/Aula 46.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.teste">
-    <configuration name="Aula 44" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="curso_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 44" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 44/Aula 44.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Aula 47">
     <configuration name="Aula 45" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="curso_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,6 +85,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 46/Aula 46.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Aula 47" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="curso_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 47" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 47/Aula 47.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Aula 47" />
+        <item itemvalue="Python.Aula 46" />
+        <item itemvalue="Python.Jogo pedra, papel e tesoura" />
         <item itemvalue="Python.teste" />
         <item itemvalue="Python.Aula 45" />
-        <item itemvalue="Python.Aula 46" />
-        <item itemvalue="Python.Aula 44" />
-        <item itemvalue="Python.Jogo pedra, papel e tesoura" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +201,11 @@
       <workItem from="1658448162452" duration="6736000" />
       <workItem from="1658700035503" duration="974000" />
       <workItem from="1658792805578" duration="9013000" />
+      <workItem from="1658875302125" duration="684000" />
+      <workItem from="1659145408249" duration="423000" />
+      <workItem from="1659371272504" duration="809000" />
+      <workItem from="1659395503096" duration="4012000" />
+      <workItem from="1659456623791" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="First commit - Começando o curso de Python">
       <created>1651547473938</created>
@@ -509,7 +515,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658801229922</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Resolução &#10;&#10;Resolução de kairo para codigo">
+      <created>1658809010241</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1658809010241</updated>
+    </task>
+    <task id="LOCAL-00046" summary="List Comprehesion &#10;&#10;Formas e utilizar listas para otimizar o codigo">
+      <created>1659403352001</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1659403352001</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,8 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aula 21:&#10;&#10;&#10;Interando strins com while em python.&#10;&#10;Valor interável" />
-    <MESSAGE value="For / Else em Python - Aula 23&#10;&#10;&#10;Utilizando for e else em python." />
     <MESSAGE value="Aula 24 - Split, Join, Enumerate em Python.&#10;&#10;&#10;&#10;*Split - Dividir uma string #str&#10;* Join - Juntar uma lista #str&#10;*Enumerate - Enumerar Elementos da lista #list." />
     <MESSAGE value="Aula 25 - Enumerate - Enumerar elementos da lista # list.&#10;&#10;Explicação sobre Enumereite." />
     <MESSAGE value="Aula 26 - Desempacotamento de listas e python&#10;&#10;&#10;Demostração de desempacotamento de lista" />
@@ -552,7 +570,9 @@
     <MESSAGE value="Sistema em python: Jogo pedra, papel e tesoura:&#10;&#10;Jogo de estrutura simples" />
     <MESSAGE value="Sets em python:&#10;&#10;Testando formas de conjuntos." />
     <MESSAGE value="Aula 45:&#10;&#10;Exercicio lista:&#10;&#10;Crianco funções para encontrar numeros verificados." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 45:&#10;&#10;Exercicio lista:&#10;&#10;Crianco funções para encontrar numeros verificados." />
+    <MESSAGE value="Resolução &#10;&#10;Resolução de kairo para codigo" />
+    <MESSAGE value="List Comprehesion &#10;&#10;Formas e utilizar listas para otimizar o codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="List Comprehesion &#10;&#10;Formas e utilizar listas para otimizar o codigo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -560,6 +580,11 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Aula 41/Aula 41.py</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Aula 46/Aula 46.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -572,48 +597,49 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/curso_python$Aula_22.coverage" NAME="Aula 22 Coverage Results" MODIFIED="1652129857199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 22" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_25.coverage" NAME="Aula 25 Coverage Results" MODIFIED="1652376034760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 25" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_31.coverage" NAME="Aula 31 Coverage Results" MODIFIED="1652729731475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 31" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_6.coverage" NAME="Aula 6 Coverage Results" MODIFIED="1651587711268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 6" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_19.coverage" NAME="Aula 19 Coverage Results" MODIFIED="1652125393182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 19" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_37.coverage" NAME="Aula 37 Coverage Results" MODIFIED="1653328709678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 37" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_9.coverage" NAME="Aula 9 Coverage Results" MODIFIED="1651611758193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 9" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_28.coverage" NAME="Aula 28 Coverage Results" MODIFIED="1652706275558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 28" />
-    <SUITE FILE_PATH="coverage/curso_python$Jogo_pedra__papel_e_tesoura.coverage" NAME="Jogo pedra, papel e tesoura Coverage Results" MODIFIED="1658455650759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sistema 0_1" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_31.coverage" NAME="Aula 31 Coverage Results" MODIFIED="1652729731475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 31" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_22.coverage" NAME="Aula 22 Coverage Results" MODIFIED="1652129857199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 22" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_6.coverage" NAME="Aula 6 Coverage Results" MODIFIED="1651587711268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 6" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_37.coverage" NAME="Aula 37 Coverage Results" MODIFIED="1653328709678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 37" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_19.coverage" NAME="Aula 19 Coverage Results" MODIFIED="1652125393182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 19" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_16.coverage" NAME="Aula 16 Coverage Results" MODIFIED="1651788871966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 16" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_40.coverage" NAME="Aula 40 Coverage Results" MODIFIED="1653335818104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 40" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_43.coverage" NAME="Aula 43 Coverage Results" MODIFIED="1653528937869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 43" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_20.coverage" NAME="Aula 20 Coverage Results" MODIFIED="1652127233737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 20" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_23.coverage" NAME="Aula 23 Coverage Results" MODIFIED="1652295890896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 23" />
-    <SUITE FILE_PATH="coverage/curso_python$aula1.coverage" NAME="aula1 Coverage Results" MODIFIED="1651586858668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula1" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_29.coverage" NAME="Aula 29 Coverage Results" MODIFIED="1652707194802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 29" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_46.coverage" NAME="Aula 46 Coverage Results" MODIFIED="1658801277446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 46" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_14.coverage" NAME="Aula 14 Coverage Results" MODIFIED="1651711939290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 14" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_32.coverage" NAME="Aula 32 Coverage Results" MODIFIED="1652731609777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 32" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_35.coverage" NAME="Aula 35 Coverage Results" MODIFIED="1653079495538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 35" />
-    <SUITE FILE_PATH="coverage/curso_python$teste.coverage" NAME="teste Coverage Results" MODIFIED="1658803385845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sistema 0_1" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_17.coverage" NAME="Aula 17 Coverage Results" MODIFIED="1652107063224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 17" />
     <SUITE FILE_PATH="coverage/curso_python$Sistema_0_1.coverage" NAME="Sistema 0_1 Coverage Results" MODIFIED="1653529499344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sistema 0_1" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_14.coverage" NAME="Aula 14 Coverage Results" MODIFIED="1651711939290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 14" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_26.coverage" NAME="Aula 26 Coverage Results" MODIFIED="1652376291015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 26" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_46.coverage" NAME="Aula 46 Coverage Results" MODIFIED="1659458614698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 46" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_20.coverage" NAME="Aula 20 Coverage Results" MODIFIED="1652127233737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 20" />
+    <SUITE FILE_PATH="coverage/curso_python$aula1.coverage" NAME="aula1 Coverage Results" MODIFIED="1651586858668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula1" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_23.coverage" NAME="Aula 23 Coverage Results" MODIFIED="1652295890896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 23" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_17.coverage" NAME="Aula 17 Coverage Results" MODIFIED="1652107063224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 17" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_7.coverage" NAME="Aula 7 Coverage Results" MODIFIED="1651589286002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 7" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_32.coverage" NAME="Aula 32 Coverage Results" MODIFIED="1652731609777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 32" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_44.coverage" NAME="Aula 44 Coverage Results" MODIFIED="1658798006692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 44" />
+    <SUITE FILE_PATH="coverage/curso_python$Jogo_pedra__papel_e_tesoura.coverage" NAME="Jogo pedra, papel e tesoura Coverage Results" MODIFIED="1659397122744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sistema 0_1" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_15.coverage" NAME="Aula 15 Coverage Results" MODIFIED="1651713139797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 15" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_12.coverage" NAME="Aula 12 Coverage Results" MODIFIED="1651705131694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 12" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_41.coverage" NAME="Aula 41 Coverage Results" MODIFIED="1653339625938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 41" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_44.coverage" NAME="Aula 44 Coverage Results" MODIFIED="1658798006692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 44" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_18.coverage" NAME="Aula 18 Coverage Results" MODIFIED="1652109092379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 18" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_24.coverage" NAME="Aula 24 Coverage Results" MODIFIED="1652298935349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 24" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_38.coverage" NAME="Aula 38 Coverage Results" MODIFIED="1653328716218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 38" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_35.coverage" NAME="Aula 35 Coverage Results" MODIFIED="1653079495538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 35" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_21.coverage" NAME="Aula 21 Coverage Results" MODIFIED="1652129709651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 21" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_30.coverage" NAME="Aula 30 Coverage Results" MODIFIED="1652710440625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 30" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_15.coverage" NAME="Aula 15 Coverage Results" MODIFIED="1651713139797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 15" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_39.coverage" NAME="Aula 39 Coverage Results" MODIFIED="1653334833603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 39" />
+    <SUITE FILE_PATH="coverage/curso_python$teste.coverage" NAME="teste Coverage Results" MODIFIED="1659145692005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sistema 0_1" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_24.coverage" NAME="Aula 24 Coverage Results" MODIFIED="1652298935349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 24" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_8.coverage" NAME="Aula 8 Coverage Results" MODIFIED="1651609922163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 8" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_29.coverage" NAME="Aula 29 Coverage Results" MODIFIED="1652707194802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 29" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_38.coverage" NAME="Aula 38 Coverage Results" MODIFIED="1653328716218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 38" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_47.coverage" NAME="Aula 47 Coverage Results" MODIFIED="1659459685192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 47" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_33.coverage" NAME="Aula 33 Coverage Results" MODIFIED="1653077624681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 33" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_36.coverage" NAME="Aula 36 Coverage Results" MODIFIED="1653326389583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 36" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_40.coverage" NAME="Aula 40 Coverage Results" MODIFIED="1653335818104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 40" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_8.coverage" NAME="Aula 8 Coverage Results" MODIFIED="1651609922163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 8" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_16.coverage" NAME="Aula 16 Coverage Results" MODIFIED="1651788871966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 16" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_30.coverage" NAME="Aula 30 Coverage Results" MODIFIED="1652710440625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 30" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_39.coverage" NAME="Aula 39 Coverage Results" MODIFIED="1653334833603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 39" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_32_1.coverage" NAME="Aula 32_1 Coverage Results" MODIFIED="1652731885414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 32" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_45.coverage" NAME="Aula 45 Coverage Results" MODIFIED="1658803196966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 45" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_42.coverage" NAME="Aula 42 Coverage Results" MODIFIED="1653508758597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 42" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_27.coverage" NAME="Aula 27 Coverage Results" MODIFIED="1652377458723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 27" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_32_1.coverage" NAME="Aula 32_1 Coverage Results" MODIFIED="1652731885414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 32" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_13.coverage" NAME="Aula 13 Coverage Results" MODIFIED="1651707876766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 13" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_45.coverage" NAME="Aula 45 Coverage Results" MODIFIED="1658803196966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 45" />
   </component>
 </project>

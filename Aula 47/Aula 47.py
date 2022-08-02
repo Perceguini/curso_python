@@ -1,0 +1,6 @@
+l1 = '12345678912345678912345678912345678912345678912345678912345679812345678913246578912346749123456789'
+n = 10
+lista = [l1[i:i + n] for i in range(0, len(l1), n)]
+retorno = '.'.join(lista)
+print(lista)
+print(retorno)

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f3aa845-771b-493b-98c7-1d793a47d27c" name="Changes" comment=" Geradores, interadores e iteraveis em python - &#10; &#10; Como criar geradores em python">
-      <change afterPath="$PROJECT_DIR$/Aula 50/Aula 50.py" afterDir="false" />
+    <list default="true" id="1f3aa845-771b-493b-98c7-1d793a47d27c" name="Changes" comment="Aula 49- Geradores, interadores e iteraveis em python&#10;&#10;melhor forma de criar um gerador de forma rápida e fazer a troca da list Comp.">
+      <change afterPath="$PROJECT_DIR$/Aula 51/Aula 51.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 49/Aula 49.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 49/Aula 49.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,29 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Aula 50">
-    <configuration name="Aula 46" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="curso_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 46" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 46/Aula 46.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Aula 51">
     <configuration name="Aula 47" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="curso_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,13 +136,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Aula 51" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="curso_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 51" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 51/Aula 51.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Aula 50" />
+        <item itemvalue="Python.Aula 51" />
         <item itemvalue="Python.Aula 49" />
+        <item itemvalue="Python.Aula 50" />
         <item itemvalue="Python.Aula 48" />
         <item itemvalue="Python.Aula 47" />
-        <item itemvalue="Python.Aula 46" />
       </list>
     </recent_temporary>
   </component>
@@ -206,21 +205,7 @@
       <workItem from="1659371272504" duration="809000" />
       <workItem from="1659395503096" duration="4012000" />
       <workItem from="1659456623791" duration="8005000" />
-      <workItem from="1659652573793" duration="2192000" />
-    </task>
-    <task id="LOCAL-00001" summary="First commit - Começando o curso de Python">
-      <created>1651547473938</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1651547473938</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Realizadas as aulas 6, 7, 8. Sobre formatação de Strings e utilização na função print()">
-      <created>1651608316272</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1651608316272</updated>
+      <workItem from="1659652573793" duration="5130000" />
     </task>
     <task id="LOCAL-00003" summary="Realizadas as aulas 6, 7, 8. Sobre formatação de Strings e utilização na função print()">
       <created>1651609609362</created>
@@ -551,7 +536,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659485560089</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Aula 50 - Comportamento de geradores e interadores&#10;&#10;Como pode ser usado os gerenciadores e interadores dentro de  Listas, Tuples e Str">
+      <created>1659655185802</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1659655185804</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Aula 49- Geradores, interadores e iteraveis em python&#10;&#10;melhor forma de criar um gerador de forma rápida e fazer a troca da list Comp.">
+      <created>1659655312844</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1659655312844</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,8 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aula 27 - Trocando o valor de duas variaveis e, Python&#10;&#10;&#10;Aplicado troca de valor de variaveis" />
-    <MESSAGE value="Aula 28 - &#10;&#10;&#10;from random import choice" />
     <MESSAGE value="Aula 29 - &#10;&#10;&#10;Expressão condicional com operador OR" />
     <MESSAGE value="Aula 30 - &#10;&#10;&#10;Desafio de contadores:&#10;for / while&#10;&#10;Realizado duas propostas de codigo." />
     <MESSAGE value="Aula 31 - &#10;&#10;&#10;&#10;Validação de CPF, realizada utilizando estrutura de repetição para que possa ser verificado o index e reverso para chegar ate o valor do cpf itilizando o metodo simples de calculo em python." />
@@ -594,7 +591,9 @@
     <MESSAGE value="List Comprehesion - Exercícios:&#10;&#10;Como formatar uma lista." />
     <MESSAGE value="List Comprehesion - Exercícios:&#10;&#10;Dicionario em List Comprehesion" />
     <MESSAGE value=" Geradores, interadores e iteraveis em python - &#10; &#10; Como criar geradores em python" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Geradores, interadores e iteraveis em python - &#10; &#10; Como criar geradores em python" />
+    <MESSAGE value="Aula 50 - Comportamento de geradores e interadores&#10;&#10;Como pode ser usado os gerenciadores e interadores dentro de  Listas, Tuples e Str" />
+    <MESSAGE value="Aula 49- Geradores, interadores e iteraveis em python&#10;&#10;melhor forma de criar um gerador de forma rápida e fazer a troca da list Comp." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 49- Geradores, interadores e iteraveis em python&#10;&#10;melhor forma de criar um gerador de forma rápida e fazer a troca da list Comp." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,7 +641,7 @@
     <SUITE FILE_PATH="coverage/curso_python$Aula_17.coverage" NAME="Aula 17 Coverage Results" MODIFIED="1652107063224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 17" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_7.coverage" NAME="Aula 7 Coverage Results" MODIFIED="1651589286002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 7" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_32.coverage" NAME="Aula 32 Coverage Results" MODIFIED="1652731609777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 32" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_49.coverage" NAME="Aula 49 Coverage Results" MODIFIED="1659485493985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 49" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_49.coverage" NAME="Aula 49 Coverage Results" MODIFIED="1659655247921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 49" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_44.coverage" NAME="Aula 44 Coverage Results" MODIFIED="1658798006692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 44" />
     <SUITE FILE_PATH="coverage/curso_python$Jogo_pedra__papel_e_tesoura.coverage" NAME="Jogo pedra, papel e tesoura Coverage Results" MODIFIED="1659397122744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sistema 0_1" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_15.coverage" NAME="Aula 15 Coverage Results" MODIFIED="1651713139797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 15" />
@@ -666,5 +665,6 @@
     <SUITE FILE_PATH="coverage/curso_python$Aula_42.coverage" NAME="Aula 42 Coverage Results" MODIFIED="1653508758597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 42" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_27.coverage" NAME="Aula 27 Coverage Results" MODIFIED="1652377458723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 27" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_13.coverage" NAME="Aula 13 Coverage Results" MODIFIED="1651707876766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 13" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_51.coverage" NAME="Aula 51 Coverage Results" MODIFIED="1659656869101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 51" />
   </component>
 </project>

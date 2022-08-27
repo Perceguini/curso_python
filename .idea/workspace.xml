@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f3aa845-771b-493b-98c7-1d793a47d27c" name="Changes" comment="Aula 51 - Exercicios List Comprehesion&#10;&#10;Como simplificar calculos com List Comprehension">
-      <change afterPath="$PROJECT_DIR$/Aula 52/Aula 52.py" afterDir="false" />
+    <list default="true" id="1f3aa845-771b-493b-98c7-1d793a47d27c" name="Changes" comment="Aula 51 - Zip - Unindo iteráveis /  Zip_longuest Itertools&#10;&#10;exemplo de como utilizar o zip e o zio_longuest.">
+      <change afterPath="$PROJECT_DIR$/Aula 53/Aula 53.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,29 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Aula 52">
-    <configuration name="Aula 48" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="curso_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 48" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 48/Aula 48.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Aula 53">
     <configuration name="Aula 49" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="curso_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,13 +136,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Aula 53" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="curso_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula 53" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula 53/Aula 53.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Aula 53" />
         <item itemvalue="Python.Aula 52" />
         <item itemvalue="Python.Aula 51" />
         <item itemvalue="Python.Aula 49" />
         <item itemvalue="Python.Aula 50" />
-        <item itemvalue="Python.Aula 48" />
       </list>
     </recent_temporary>
   </component>
@@ -206,14 +206,8 @@
       <workItem from="1659395503096" duration="4012000" />
       <workItem from="1659456623791" duration="8005000" />
       <workItem from="1659652573793" duration="5919000" />
-      <workItem from="1661300291446" duration="1996000" />
-    </task>
-    <task id="LOCAL-00004" summary="Realizadas aula 9. Sobre adados e utilização na função int() e input">
-      <created>1651614525020</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1651614525020</updated>
+      <workItem from="1661300291446" duration="2707000" />
+      <workItem from="1661557671612" duration="2153000" />
     </task>
     <task id="LOCAL-00005" summary="Realizadas aula 9. Sobre adados e utilização na função int() e input">
       <created>1651615083585</created>
@@ -551,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659662502295</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Aula 51 - Zip - Unindo iteráveis /  Zip_longuest Itertools&#10;&#10;exemplo de como utilizar o zip e o zio_longuest.">
+      <created>1661305593427</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1661305593427</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aula 30 - &#10;&#10;&#10;Desafio de contadores:&#10;for / while&#10;&#10;Realizado duas propostas de codigo." />
     <MESSAGE value="Aula 31 - &#10;&#10;&#10;&#10;Validação de CPF, realizada utilizando estrutura de repetição para que possa ser verificado o index e reverso para chegar ate o valor do cpf itilizando o metodo simples de calculo em python." />
     <MESSAGE value="Aula 32 - &#10;&#10;&#10;Criação de CPF em laço utilizando o while True." />
     <MESSAGE value="Aula 32_1 - &#10;&#10;&#10;Geradpr dp CPF em Python." />
@@ -594,7 +594,8 @@
     <MESSAGE value="Aula 50 - Comportamento de geradores e interadores&#10;&#10;Como pode ser usado os gerenciadores e interadores dentro de  Listas, Tuples e Str" />
     <MESSAGE value="Aula 49- Geradores, interadores e iteraveis em python&#10;&#10;melhor forma de criar um gerador de forma rápida e fazer a troca da list Comp." />
     <MESSAGE value="Aula 51 - Exercicios List Comprehesion&#10;&#10;Como simplificar calculos com List Comprehension" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 51 - Exercicios List Comprehesion&#10;&#10;Como simplificar calculos com List Comprehension" />
+    <MESSAGE value="Aula 51 - Zip - Unindo iteráveis /  Zip_longuest Itertools&#10;&#10;exemplo de como utilizar o zip e o zio_longuest." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 51 - Zip - Unindo iteráveis /  Zip_longuest Itertools&#10;&#10;exemplo de como utilizar o zip e o zio_longuest." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -651,7 +652,7 @@
     <SUITE FILE_PATH="coverage/curso_python$Aula_43.coverage" NAME="Aula 43 Coverage Results" MODIFIED="1653528937869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 43" />
     <SUITE FILE_PATH="coverage/curso_python$Sistema_0_1.coverage" NAME="Sistema 0_1 Coverage Results" MODIFIED="1653529499344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sistema 0_1" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_46.coverage" NAME="Aula 46 Coverage Results" MODIFIED="1659458614698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 46" />
-    <SUITE FILE_PATH="coverage/curso_python$Aula_52.coverage" NAME="Aula 52 Coverage Results" MODIFIED="1661305465342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 52" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_52.coverage" NAME="Aula 52 Coverage Results" MODIFIED="1661561287442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 52" />
     <SUITE FILE_PATH="coverage/curso_python$aula1.coverage" NAME="aula1 Coverage Results" MODIFIED="1651586858668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula1" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_50.coverage" NAME="Aula 50 Coverage Results" MODIFIED="1659654736466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 50" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_7.coverage" NAME="Aula 7 Coverage Results" MODIFIED="1651589286002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 7" />
@@ -660,6 +661,7 @@
     <SUITE FILE_PATH="coverage/curso_python$Aula_41.coverage" NAME="Aula 41 Coverage Results" MODIFIED="1653339625938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 41" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_18.coverage" NAME="Aula 18 Coverage Results" MODIFIED="1652109092379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 18" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_35.coverage" NAME="Aula 35 Coverage Results" MODIFIED="1653079495538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 35" />
+    <SUITE FILE_PATH="coverage/curso_python$Aula_53.coverage" NAME="Aula 53 Coverage Results" MODIFIED="1661562281728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 53" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_24.coverage" NAME="Aula 24 Coverage Results" MODIFIED="1652298935349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 24" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_8.coverage" NAME="Aula 8 Coverage Results" MODIFIED="1651609922163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 8" />
     <SUITE FILE_PATH="coverage/curso_python$Aula_29.coverage" NAME="Aula 29 Coverage Results" MODIFIED="1652707194802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Aula 29" />
